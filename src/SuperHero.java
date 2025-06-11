@@ -11,4 +11,9 @@ public class SuperHero extends Hero {
     public void run() {
         System.out.println(this.name + "は撤退した");
     }
+
+    public void test() {
+        super.test();
+        System.out.println("子テスト");
+    }
 }
